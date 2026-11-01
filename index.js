@@ -63,6 +63,7 @@ Hooks.on('getSceneControlButtons', controls => {
             name: "simpleCinematicPan",
             title: game.i18n.localize('simple-cinematic-pan.controls.title'),
             icon: "fas fa-video",
+            order: Object.keys(controls).length,
             activeTool: "simpleCinematicPan-hidden",
             tools: {
                 "simpleCinematicPan-hidden": {

@@ -15,7 +15,7 @@ The module also offers optional cinematic bars for that movie-theater feel, UI h
 ## Features
 
 - **Simple one-click synchronization**: One button to sync all players' view with yours and enter cinematic mode
-- **Smooth animations**: Beautiful canvas transitions using official Foundry VTT v13 APIs
+- **Smooth animations**: Beautiful canvas transitions using official Foundry VTT v13+ APIs
 - **Cinematic bars**: Optional black bars for that movie theater feel
 - **UI hiding**: Option to hide Foundry UI for players during cinematic mode
 - **Native integration**: Seamlessly integrated into Foundry's scene controls
@@ -77,7 +77,7 @@ The module offers several configurable settings:
 
 ## Compatibility
 
-- **Foundry VTT**: Version 13+
+- **Foundry VTT**: Version 13 and 14
 - **Systems**: Compatible with all systems (D&D 5e, Pathfinder 2e, etc.)
 - **Modules**: No known conflicts
 

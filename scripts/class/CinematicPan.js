@@ -2,7 +2,7 @@ import { MODULE_ID } from "../constants/module.js";
 import { consoleLog } from "../utils.js";
 
 /**
- * Simple Cinematic Pan module for Foundry VTT v13
+ * Simple Cinematic Pan module for Foundry VTT v13-v14
  * Allows the GM to synchronize all players' view with their own view
  */
 export class CinematicPan {
@@ -221,7 +221,7 @@ export class CinematicPan {
             return { x: 0, y: 0, scale: 1 };
         }
 
-        // Use the official Foundry VTT v13 method
+        // Use the official Foundry VTT v13+ method
         const view = canvas.scene._viewPosition || canvas.stage.position;
         const scale = canvas.stage.scale.x;
         

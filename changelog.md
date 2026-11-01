@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1] - 2026-11-01
+
+### Improvements
+- **Compatibility**: Verified compatibility with Foundry VTT v14
+
+### Bug Fixes
+- **Scene controls**: Added the required `order` to the cinematic control group so it sorts consistently in the scene controls
+
 ## [1.1.0] - 2025-08-16
 
 ### New Features
